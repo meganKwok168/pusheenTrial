@@ -23,9 +23,8 @@ pip install flask pandas numpy plotly  !!!!!!!!!!!!!!!!
 in Makefile: https://stackoverflow.com/questions/33839018/activate-virtualenv-in-makefile#comment93719776_33839284 
 
 ====================================
-PART ONE : DATA EXPLORATION 
-
-# SPECIFICATIONS
+# PART ONE : DATA EXPLORATION 
+## SPECIFICATIONS
 - account_type (brand/creator)
 - media_type (reel/image/carousel)
 - content_category (Technology/Fitness/etc)
@@ -36,20 +35,20 @@ PART ONE : DATA EXPLORATION
 - caption_length
 - hashtags_count
 
-# METRICS
+## METRICS
 - reach: how many unique people a post is shown to
 - follower_count
 - engagement_rate: (likes + comments + shares + saves) / total impressions --> we know this bc i calc'ed it
 - impressions: how many times a post comes up on a screen (not unique)
 - followers_gained
 
-# EXCLUDED SPECIFICATIONS
+## EXCLUDED SPECIFICATIONS
 - post_datetime: too much info, hard to watch trend because we aren't tracking one account at a time, you can't replicate the date, waiting months to post < posting now
 - post_date: you can't replicate the date, waiting months to post < posting now
 - performance_bucket_list: too vague, engagement_rate is a better performance indicator
 
-# EXCLUDED METRICS:
+## EXCLUDED METRICS:
 Likes, comments, shares, saves do not provide value alone.  These metrics are combined in the engagement_rate.
 
 ==============================================
-#PART TWO: coming soon
+# PART TWO: coming soon

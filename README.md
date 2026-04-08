@@ -1,26 +1,26 @@
 # HOW TO USE
-open folder in terminal
-type in "make" (no quotations, just the word) and enter
-you don't have to run python3 __init__.py --> "make" does it for you
+- open folder in terminal
+- type in "make" (no quotations, just the word) and enter
+- you don't have to run python3 __init__.py --> "make" does it for you
 
 ## USAGE EXAMPLE
 Note: app is case-sensitive and is not dummy-proof
 ### General: uses full dataset
-Limit: General
-Specification: content_category
-Metric: reach
+- Limit: General
+- Specification: content_category
+- Metric: reach
 
 ### has a limit
-Limit: content_category/Technology
-Specification: hashtags_count
-Metric: reach
+- Limit: content_category/Technology
+- Specification: hashtags_count
+- Metric: reach
 
 # notes on venv
-python3 -m venv .venv
-source .venv/bin/activate
-pip install flask pandas numpy plotly  !!!!!!!!!!!!!!!!
+* python3 -m venv .venv
+* source .venv/bin/activate
+* pip install flask pandas numpy plotly  !!!!!!!!!!!!!!!!
 
-in Makefile: https://stackoverflow.com/questions/33839018/activate-virtualenv-in-makefile#comment93719776_33839284 
+* in Makefile: https://stackoverflow.com/questions/33839018/activate-virtualenv-in-makefile#comment93719776_33839284 
 
 ====================================
 # PART ONE : DATA EXPLORATION 

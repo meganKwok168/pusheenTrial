@@ -2,6 +2,7 @@
 - open folder in terminal
 - type in "make" (no quotations, just the word) and enter
 - you don't have to run python3 __init__.py --> "make" does it for you
+- if it doesn't work, you might need to configure the venv and pip install (see notes on venv)
 
 ## USAGE EXAMPLE
 Note: app is case-sensitive and is not dummy-proof
@@ -18,7 +19,7 @@ Note: app is case-sensitive and is not dummy-proof
 # notes on venv
 * python3 -m venv .venv
 * source .venv/bin/activate
-* pip install flask pandas numpy plotly  !!!!!!!!!!!!!!!!
+* pip install flask pandas numpy plotly
 
 * in Makefile: https://stackoverflow.com/questions/33839018/activate-virtualenv-in-makefile#comment93719776_33839284 
 

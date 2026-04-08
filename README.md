@@ -1,8 +1,8 @@
 # HOW TO USE
-- open folder in terminal
-- type in "make" (no quotations, just the word) and enter
-- you don't have to run python3 __init__.py --> "make" does it for you
-- if it doesn't work, you might need to configure the venv and pip install (see "notes on venv" below), and then "make" again
+## first time
+* python3 -m venv .venv
+* source .venv/bin/activate
+* pip install -r requirements.txt
 
 ## USAGE EXAMPLE
 Note: app is case-sensitive and is not dummy-proof
@@ -16,10 +16,11 @@ Note: app is case-sensitive and is not dummy-proof
 - Specification: hashtags_count
 - Metric: reach
 
-# notes on venv
+# notes on venv -- what MK did to set up first time commands above
 * python3 -m venv .venv
 * source .venv/bin/activate
-* pip install flask pandas numpy plotly
+* pip install flask pandas numpy plotly   !!!!!
+* pip freeze > requirements.txt           !!!!!
 
 * in Makefile: https://stackoverflow.com/questions/33839018/activate-virtualenv-in-makefile#comment93719776_33839284 
 

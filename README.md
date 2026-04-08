@@ -2,7 +2,7 @@
 - open folder in terminal
 - type in "make" (no quotations, just the word) and enter
 - you don't have to run python3 __init__.py --> "make" does it for you
-- if it doesn't work, you might need to configure the venv and pip install (see notes on venv)
+- if it doesn't work, you might need to configure the venv and pip install (see notes on venv), and then "make" again
 
 ## USAGE EXAMPLE
 Note: app is case-sensitive and is not dummy-proof

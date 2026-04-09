@@ -1,10 +1,5 @@
 # HOW TO USE
-## first time
-* python3 -m venv .venv
-* source .venv/bin/activate
-* pip install -r requirements.txt
-## after first time
-* open terminal and type in "make" (no quotations, just the word) and enter
+open terminal and type "make run" (without quotations, only the words) and enter
 
 ## USAGE EXAMPLE
 Note: app is case-sensitive and is not dummy-proof

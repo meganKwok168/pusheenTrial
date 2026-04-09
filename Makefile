@@ -6,7 +6,6 @@ PYTHON = $(VENV)/bin/python
 # only create .venv if .venv is messing
 $(VENV)/bin/python:
 	python3 -m venv $(VENV)
-	$(PYTHON) -m pip install --upgrade pip
 	$(PYTHON) -m pip install -r requirements.txt
 
 #only runs python after making/checking .venv is here

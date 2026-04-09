@@ -20,6 +20,7 @@ Note: app is case-sensitive and is not dummy-proof
 * pip freeze > requirements.txt           !!!!!
 
 * in Makefile: https://stackoverflow.com/questions/33839018/activate-virtualenv-in-makefile#comment93719776_33839284 
+* https://stackoverflow.com/a/73837995 
 
 ====================================
 # PART ONE : DATA EXPLORATION 

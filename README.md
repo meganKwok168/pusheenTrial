@@ -21,6 +21,7 @@ Note: app is case-sensitive and is not dummy-proof
 
 * in Makefile: https://stackoverflow.com/questions/33839018/activate-virtualenv-in-makefile#comment93719776_33839284 
 * https://stackoverflow.com/a/73837995 
+* https://stackoverflow.com/a/75867172
 
 ====================================
 # PART ONE : DATA EXPLORATION 

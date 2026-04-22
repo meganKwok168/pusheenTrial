@@ -41,14 +41,15 @@ def engagementRate():
             print("true: "+str(trueRate)+" | calc'ed: "+str(round(engagementRate,4))+" | "+whichOne)
 # engagementRate()
 
-def makeGraphic(limit, specification, metric):   
+def makeGraphic(limit1, limit2, specification, metric):   
     df = pd.read_csv('static/insta.csv')
-    if limit != "General":
-        big=limit.split('/')[0]
-        small=limit.split('/')[1]
+    if limit1 != "General":
+        big=limit1
+        small=limit2
         mylist = []
         filtered_df = df[df[big]==small]
         df = filtered_df
+   
     fig = px.scatter(df,x=specification,y=metric, title=limit)
     avg_df = df.groupby(specification)[metric].mean().reset_index()
     avgFig = px.scatter(avg_df,x=specification,y=metric, title=f'{limit} Average')
